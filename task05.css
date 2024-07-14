@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f8ff; /* Light blue background */
+  }
+  
+  #weather-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease-in-out; /* Smooth transitions for background and color */
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #eff2f4; /* Light blue */
+  }
+  
+  #weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #weather-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #weather-description,
+  #temperature,
+  #feels-like {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  #temperature {
+    color: #ff9f1c; /* Light orange */
+  }
+  
+  #feels-like {
+    color: #9b59b6; /* Light purple */
+  }
+  
+  #location-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #user-location {
+    padding: 10px;
+    border: 5px solid #fa67a7;
+    border-radius: 5px;
+  }
+  
+  #get-weather {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db; /* Light blue */
+    color: #d9e1e3;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  #get-weather:hover {
+    background-color: #2980b9; /* Darker blue */
+  }
